@@ -14,6 +14,10 @@ h1, h2, h3 {
 	text-align: center;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 .wrapper {
 	max-width: 980px;
 	margin: auto;
@@ -23,7 +27,7 @@ h1, h2, h3 {
 
 section {
 	padding-bottom: 20px;
-	border-bottom: 1px solid #eee;
+	/*border-bottom: 1px solid #eee;*/
 }
 
 .header {
@@ -57,18 +61,22 @@ section {
   text-align: center;
 }
 
-.title {
-	margin-top: 40px;
-	font-size: 42px;
+.video-section h1 {
+  font-weight: normal;
 }
 
 .subtitle {
 	margin-top: 10px;
-	font-size: 22px;
+	font-size: 28px;
 }
 
-.joinnow-button {
-	margin-top: 20px;
+.donate-link {
+  margin-top: 40px;
+	font-size: 24px;
+}
+
+.donate-icon {
+  width: 124px;
 }
 
 .video {
@@ -80,7 +88,7 @@ section {
   padding-top: 40px;
   padding-bottom: 20px;
   text-align: center;
-  border-bottom: solid 8px #92a520;c
+  border-bottom: solid 8px #92a520;
 }
 
 .donate {
@@ -90,6 +98,11 @@ section {
 
 .donate .stats {
   *background-color: #f2f2f2;
+}
+
+.stats {
+  margin: auto;
+  max-width: 500px;
 }
 
 .stats .current-amount {
@@ -116,6 +129,10 @@ section {
   width: 18px;
   display: block;
   margin: auto;
+}
+
+.join {
+  padding-top: 50px;
 }
 
 .join form {
@@ -152,6 +169,11 @@ section {
 
 .about {
 	text-align: justify;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.about .column-with-divider {
+  border-left: 1px solid #c1c1c1;
 }
 
 .map iframe {
@@ -161,17 +183,25 @@ section {
   margin-top: 20px;
 }
 
-.footer {
+.contact {
 	padding-top: 10px;
-	background-color: #f8f8f8;
+	background-color: #515151;
   text-align: center;
+  color: #bdbdbd;
 }
 
-.copyright {
+.footer {
   text-align: left;
   direction: ltr;
+  padding-top: 10px;
+  background-color: #231f20;
+  text-align: center;
+  color: #abaaaa;
 }
 
+.footer-logo {
+  width: 60px;
+}
 
 /* Share Buttons */
 .share-buttons {
@@ -226,4 +256,8 @@ section {
 
 .contact li a.email {
   background: url(../images/email21.png);
+}
+
+.copyright {
+  margin-top: 10px;
 }

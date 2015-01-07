@@ -3,10 +3,11 @@
 <head>
 	<title>שבוס - תחבורה ירושלמית שיתופית</title>
 
-	<link rel="stylesheet" type="text/css" href="css/index.css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-rtl.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/headstart.js"></script>
@@ -33,7 +34,12 @@
 <section id="video-section" class="video-section">
 	<div class="wrapper">
 		<h2 class="subtitle">שירות הסעות שמחבר ירושלמים למוקדי הבילוי בסופי השבוע</h2>
-		<a href="#donate" class="joinnow-button btn btn-primary">תמכו בקמפיין!</a>
+		<div class="donate-link">
+			<a href="#donate">
+				<div><img src="images/donate_icon.svg" class="donate-icon" alt="תמכו בקמפיין!" /></div>
+				תמכו בקמפיין!
+			</a>
+		</div>
 		<img class="video center-block" src="images/video_placeholder.png" />
 
 		<h1>שירות פשוט ונוח. בזמן שהכי צריך אותו.</h1>
@@ -69,7 +75,7 @@
 			</div>
 		</div>
 
-		<div class="donate">
+		<div class="donate" id="donate">
 			<h1>אנחנו זקוקים לעזרתכם!</h1>
 			<p>שבוס נועד לרווחת הציבור, ואין מאחוריו שום גוף מסחרי בעל אמצעים.
 				<br />
@@ -140,14 +146,14 @@
 
 <section id="about" class="about">
 	<div class="row">
-		<div class="col-sm-6 col-xs-12">
+		<div class="col-sm-6 col-xs-12 column-with-divider">
 <h1>מי אנחנו?</h1>
 <p>
 האגודה לתחבורה שיתופית בירושלים הוקמה על ידי ירושלמים צעירים וותיקים, אשר גרים בעיר, אוהבים אותה ורוצים להפוך אותה למקום טוב יותר לחיות בו. הרעיון שלנו נולד כתוצאה מהפער הגדל והולך בין שפע מקומות הבילוי המשגשגים בשנים האחרונות בירושלים, לבין חוסר הנגישות אליהם בסוף השבוע. אנחנו רוצים לשנות את המצב הנוכחי בו רק בעלי רכב פרטי, או בעלי אמצעים יכולים ליהנות בסוף השבוע. אנחנו רוצים לשנות את המצב הנוכחי בו צעירים רבים לוקחים את ההגה לידיים אחרי ששתו כי אין אלטרנטיבה במחירים שווים לכל נפש. אנחנו רוצים להפוך את התרבות בעיר לשוויונית יותר, נגישה יותר, ובטוחה יותר.
 </p>
 </div>
 	<div class="col-sm-6 col-xs-12">
-<h3 id="why-sign">למה אנחנו צריכים אגודה שיתופית?</h3>
+<h1 id="why-sign">למה אנחנו צריכים אגודה שיתופית?</h1>
 <p>
 דרך המלך לאספקת שירותי תחבורה זולים לכל, היא הדרך הציבורית, אולם למרות הצורך הברור, משרד התחבורה מסרב לתת רשיון להפעלת תחבורה ציבורית בשבת בירושלים. הפתרון שאנו מציעים הוא של תחבורה פרטית, לחברים בלבד, על בסיס שיתופי, במחירים נמוכים. ככל שיותר חברים ירכשו יחדיו שירותי תחבורה, כך נוכל להרחיב את השירות ולהגביר תדירות.
 </p>
@@ -172,20 +178,20 @@
 
 </div>
 
+<section id="contact" class="contact">
+	<div class="wrapper">
+		<h3>צרו קשר</h3>
+		<ul>
+			<li><a class="email" href="mailto:shabus.jer@gmail.com"></a></li>
+			<li><a class="facebook" href="http://www.facebook.com/Shabus.Jerusalem"></a></li>
+		</ul>
+	</div>
+</section>
+
 <section id="footer" class="footer">
 	<div class="wrapper">
-		<div class="contact" id="contact">
-			<h3>צרו קשר</h3>
-			<ul>
-				<li><a class="email" href="mailto:shabus.jer@gmail.com"></a></li>
-				<li><a class="facebook" href="http://www.facebook.com/Shabus.Jerusalem"></a></li>
-			</ul>
-		</div>
-
-		<div class="copyright">
-			<div>(c) Shabus 2014, All rights reserved.</div>
-			<div>Icons by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div></div>
-		</div>
+		<img src="images/footer_logo.svg" alt="שבוס" class="footer-logo" />
+		<div class="copyright">© Shabus 2014, All rights reserved. | Design by Elad Lifshitz, code by Matan Gover.</div>
 	</div>
 </section>
 
