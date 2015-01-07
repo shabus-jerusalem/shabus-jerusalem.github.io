@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body.alef {
+  font-family: "Alef Hebrew",
+               "Helvetica Neue",
+               Helvetica,
+               Arial,
+               sans-serif;
+   direction: rtl;
+}
+
+h1, h2, h3 {
+	font-family: "Alef Hebrew";
+	text-align: center;
+}
+
+.wrapper {
+	max-width: 980px;
+	margin: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+section {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.header {
+	/*background-color: #d5edf9;*/
+	/*background-color: #abc046;*/
+	/*main logo color: 54a73d*/
+	background-color: #a8e199;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.logo {
+	display: block;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.title {
+	margin-top: 40px;
+	font-size: 42px;
+}
+
+.subtitle {
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.joinnow-button {
+	margin-top: 20px;
+}
+
+.video {
+	margin-top: 20px;
+}
+
+.donate {
+  text-align: center;
+  background-color: #85daef;
+  padding-top: 1px;  /* hack?? */
+}
+
+.donate .stats {
+  *background-color: #f2f2f2;
+}
+
+.stats .current-amount {
+  font-size: 65px;
+}
+
+.stats .total-amount {
+  font-size: 24px;
+}
+
+.stats .value {
+  font-size: 24px;
+}
+
+.donate .progress {
+  margin-top: 20px;
+}
+
+.donate .progress .progress-bar {
+  float: left;
+}
+
+.join form {
+	max-width: 300px;
+	margin: auto;
+}
+
+.join p {
+	text-align: center;
+}
+
+.join form .first-name {
+  padding-left: 5px;
+}
+
+.join form .last-name {
+  padding-right: 5px;
+}
+
+.explanation div img {
+	max-width: 64px;
+	max-height: 64px;
+	margin: auto;
+	display: block;
+}
+
+.explanation h1 {
+	margin-bottom: 30px;
+}
+
+.explanation p {
+	text-align: center;
+}
+
+.about {
+	text-align: justify;
+}
+
+.map iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.footer {
+	padding-top: 10px;
+	background-color: #f8f8f8;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  direction: ltr;
+}
+
+
+/* Share Buttons */
+.share-buttons {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.share-buttons li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  margin: 0 5px;
+}
+.share-buttons li a {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 10px 40px 9px 22px;
+  color: white;
+}
+.share-buttons li a.facebook {
+  background: url(../images/facebook.png) no-repeat right 10px center #3b5998;
+}
+.share-buttons li a.twitter {
+  background-position: right 30px;
+  background: url(../images/twitter.png) no-repeat right 10px center #00aced;
+}
+.share-buttons li a.googleplus {
+  background-position: right 30px;
+  background: url(../images/googleplus.png) no-repeat right 10px center #d14836;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  display: inline;
+}
+
+.contact li a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.contact li a.facebook {
+  background: url(../images/facebook40.png);
+}
+
+.contact li a.email {
+  background: url(../images/email21.png);
+}
