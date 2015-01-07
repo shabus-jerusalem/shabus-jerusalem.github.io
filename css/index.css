@@ -30,10 +30,11 @@ section {
 	/*background-color: #d5edf9;*/
 	/*background-color: #abc046;*/
 	/*main logo color: 54a73d*/
-	background-color: #a8e199;
+	background-color: #b3dd00;
 	padding-top: 40px;
 	padding-bottom: 20px;
 	text-align: center;
+  border-bottom: solid 5px #92a520;
 }
 
 .logo {
@@ -43,6 +44,17 @@ section {
 
 .logo img {
   width: 300px;
+}
+
+
+.video-section {
+  /*background-color: #d5edf9;*/
+  /*background-color: #abc046;*/
+  /*main logo color: 54a73d*/
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .title {
@@ -63,9 +75,16 @@ section {
 	margin-top: 20px;
 }
 
+.explanation {
+  background-color: #b3dd00;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: solid 8px #92a520;c
+}
+
 .donate {
   text-align: center;
-  background-color: #85daef;
   padding-top: 1px;  /* hack?? */
 }
 
@@ -91,6 +110,12 @@ section {
 
 .donate .progress .progress-bar {
   float: left;
+}
+
+.section-separator {
+  width: 18px;
+  display: block;
+  margin: auto;
 }
 
 .join form {
