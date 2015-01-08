@@ -75,6 +75,10 @@ section {
 	font-size: 24px;
 }
 
+.donate-link a {
+  color: black;
+}
+
 .donate-icon {
   width: 124px;
 }
@@ -153,8 +157,8 @@ section {
 }
 
 .explanation div img {
-	max-width: 64px;
-	max-height: 64px;
+	max-width: 128px;
+	max-height: 128px;
 	margin: auto;
 	display: block;
 }
