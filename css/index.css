@@ -95,7 +95,7 @@ section {
   border-bottom: solid 8px #92a520;
 }
 
-.explanation a {
+.service-description a {
   color: #3f7f25;
   text-decoration: underline;
 }
@@ -136,6 +136,29 @@ section {
 
 .donate .progress .progress-bar {
   float: left;
+  background-image: linear-gradient(to bottom,#3f7f25 0,#32661d 100%);
+}
+
+.button {
+  background-image: url(../images/button.svg);
+  background-size: 100% 100%;
+  padding: 8px 15px;
+  color: white;
+  min-width: 120px;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.button:visited {
+  color: white;
+}
+
+input[type=submit].button {
+  border: 0px;
+  background-color: transparent;
 }
 
 .section-separator {
@@ -165,6 +188,11 @@ section {
   padding-right: 5px;
 }
 
+.join .button {
+  display: block;
+  margin: auto;
+}
+
 .service-description div img {
 	max-width: 128px;
 	max-height: 128px;
@@ -181,6 +209,7 @@ section {
 }
 
 .about {
+  margin-top: 40px;
 	text-align: justify;
   border-bottom: 1px solid #c1c1c1;
 }
