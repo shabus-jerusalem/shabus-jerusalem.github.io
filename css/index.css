@@ -95,9 +95,18 @@ section {
   border-bottom: solid 8px #92a520;
 }
 
+.explanation a {
+  color: #3f7f25;
+  text-decoration: underline;
+}
+
 .donate {
   text-align: center;
   padding-top: 1px;  /* hack?? */
+}
+
+.subsection-title img {
+  width: 127px;
 }
 
 .donate .stats {
@@ -156,7 +165,7 @@ section {
   padding-right: 5px;
 }
 
-.explanation div img {
+.service-description div img {
 	max-width: 128px;
 	max-height: 128px;
 	margin: auto;
@@ -178,6 +187,17 @@ section {
 
 .about .column-with-divider {
   border-left: 1px solid #c1c1c1;
+}
+
+.about h1 {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+
+.map h1 {
+  text-align: right;
+  margin-bottom: 15px;
 }
 
 .map iframe {
@@ -210,7 +230,6 @@ section {
 /* Share Buttons */
 .share-buttons {
   list-style: none;
-  text-align: center;
   padding: 0;
 }
 .share-buttons li {
@@ -220,23 +239,10 @@ section {
 }
 .share-buttons li a {
   display: inline-block;
-  overflow: hidden;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  padding: 10px 40px 9px 22px;
-  color: white;
 }
-.share-buttons li a.facebook {
-  background: url(../images/facebook.png) no-repeat right 10px center #3b5998;
-}
-.share-buttons li a.twitter {
-  background-position: right 30px;
-  background: url(../images/twitter.png) no-repeat right 10px center #00aced;
-}
-.share-buttons li a.googleplus {
-  background-position: right 30px;
-  background: url(../images/googleplus.png) no-repeat right 10px center #d14836;
+
+.share-buttons li a img {
+  width: 144px;
 }
 
 .contact ul {
