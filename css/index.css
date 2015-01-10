@@ -236,13 +236,6 @@ input[type=submit].button {
   margin-top: 20px;
 }
 
-.contact {
-	padding-top: 10px;
-	background-color: #515151;
-  text-align: center;
-  color: #bdbdbd;
-}
-
 .footer {
   text-align: left;
   direction: ltr;
@@ -274,27 +267,25 @@ input[type=submit].button {
   width: 144px;
 }
 
-.contact ul {
-  list-style: none;
-  padding: 0;
+.contact {
+  direction: ltr;
+  padding-top: 10px;
+  background-color: #515151;
+  color: #bdbdbd;
+  text-align: center;
 }
 
-.contact li {
-  display: inline;
+.contact a {
+  color: #bdbdbd;
 }
 
-.contact li a {
-  width: 32px;
-  height: 32px;
+.contact-links {
   display: inline-block;
+  text-align: left;
 }
 
-.contact li a.facebook {
-  background: url(../images/facebook40.png);
-}
-
-.contact li a.email {
-  background: url(../images/email21.png);
+.contact-links img {
+  height: 48px;
 }
 
 .copyright {
