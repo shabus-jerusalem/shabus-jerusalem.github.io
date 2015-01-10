@@ -298,6 +298,10 @@ input[type=submit].button {
   color: #abaaaa;
 }
 
+.footer a {
+  color: #abaaaa;
+}
+
 .footer-logo {
   width: 60px;
 }
