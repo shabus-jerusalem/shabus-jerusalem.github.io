@@ -323,6 +323,7 @@ input[type=submit].button {
 
 .share-buttons li a img {
   width: 100px;
+  height: 100px;
 }
 
 .contact {
