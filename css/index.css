@@ -142,7 +142,7 @@ section {
 }
 
 .stats .value {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .share-title {
@@ -157,13 +157,43 @@ section {
   color: #3f7f25;
 }
 
-.donate .progress {
+
+.progress-bar-container {
   margin: 10px 0;
+  position: relative;
+  width: 100%;
+  height: 23px;
 }
 
-.donate .progress .progress-bar {
+.progress, .progress-bar {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.donate .progress-inner {
+  border-radius: 13px/10px;
+  height: 20px;
+}
+
+.donate .progress-bar-outer {
   float: left;
-  background-image: linear-gradient(to bottom,#3f7f25 0,#32661d 100%);
+  background: #32661d;
+}
+
+
+.donate .progress-outer {
+  border-radius: 10px;
+  background: #cccccc;
+  height: 24px;
+}
+
+.donate .progress-bar-inner {
+  float: left;
+  background: #3f7f25;
 }
 
 .button {
