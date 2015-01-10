@@ -96,6 +96,10 @@ section {
   border-bottom: solid 8px #92a520;
 }
 
+.service-description {
+  font-size: 16px;
+}
+
 .service-description a {
   color: #3f7f25;
   text-decoration: underline;
@@ -107,9 +111,13 @@ section {
   padding-top: 1px;  /* hack?? */
 }
 
+.donate-explanation {
+  margin-bottom: 20px;
+}
+
 .subsection-title {
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .subsection-title img {
@@ -135,6 +143,10 @@ section {
 
 .stats .value {
   font-size: 24px;
+}
+
+.share-title {
+  margin-top: 50px;
 }
 
 .join a {
