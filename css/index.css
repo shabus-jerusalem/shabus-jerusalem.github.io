@@ -136,6 +136,14 @@ section {
   font-size: 24px;
 }
 
+.join a {
+  color: #3f7f25;
+}
+
+.map a {
+  color: #3f7f25;
+}
+
 .donate .progress {
   margin-top: 20px;
 }
@@ -231,12 +239,12 @@ input[type=submit].button {
   margin-bottom: 15px;
 }
 
-.map iframe {
+/*.map iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-}
+}*/
 
 .footer {
   text-align: left;
@@ -271,10 +279,14 @@ input[type=submit].button {
 
 .contact {
   direction: ltr;
-  padding-top: 10px;
+  padding-top: 1px; /* hack? */
   background-color: #515151;
   color: #bdbdbd;
   text-align: center;
+}
+
+.contact h3 {
+  margin-bottom: 15px;
 }
 
 .contact a {
@@ -299,4 +311,14 @@ input[type=submit].button {
 
 .copyright {
   margin-top: 10px;
+}
+
+/***** Responsive embed *****/
+.embed-container {
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
+  max-width: 640px;
+  margin: auto;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
 }
