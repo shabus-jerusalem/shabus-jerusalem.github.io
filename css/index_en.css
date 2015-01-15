@@ -251,11 +251,11 @@ input[type=submit].button {
 }
 
 .join form .first-name {
-  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .join form .last-name {
-  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .join .button {
