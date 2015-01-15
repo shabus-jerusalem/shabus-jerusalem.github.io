@@ -9,11 +9,11 @@ body.alef {
    direction: rtl;
    font-size: 18px;
 }
-
+/*
 .container-fluid {
   padding: 0;
   overflow-x: hidden;
-}
+}*/
 
 h1, h2, h3 {
 	font-family: "Alef Hebrew";
@@ -56,13 +56,22 @@ section {
   max-width: 300px;
 }
 
+.language-bar {
+  margin-left: 80px;
+  text-align: left;
+}
+
+.language-link {
+  height: 36px;
+  width: 39px;
+}
 
 .video-section {
   /*background-color: #d5edf9;*/
   /*background-color: #abc046;*/
   /*main logo color: 54a73d*/
   background-color: white;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   padding-bottom: 20px;
   text-align: center;
 }
