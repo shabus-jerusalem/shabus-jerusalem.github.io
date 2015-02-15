@@ -382,6 +382,7 @@ input[type="email"]:focus {
 
 .copyright {
   margin-top: 10px;
+  font-size: 14px;
 }
 
 /***** Responsive embed *****/
