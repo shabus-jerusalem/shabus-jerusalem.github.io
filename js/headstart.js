@@ -20,10 +20,10 @@ function loadHeadstartData() {
     yqlQuery1,
     function(data) {
       var divs = data.query.results.div;
-      var fundingTarget = divs[0].p.span.strong;
-      var fundedPercent = divs[1].strong.replace("%", "");
-      var remainingDays = divs[2].strong;
-      var numSupporters = divs[3].strong;
+      var fundingTarget = divs[0].span.b;
+      var fundedPercent = divs[1].b.replace("%", "");
+      var remainingDays = divs[2].b;
+      var numSupporters = divs[3].b;
       //alert("Supporters: " + numSupporters + ", Funded: " + fundedPercent + "%, Remaining Days: " + remainingDays +", Target: " + fundingTarget);
       setHeadstartData(fundingTarget, fundedPercent, remainingDays, numSupporters);
     });
@@ -31,7 +31,7 @@ function loadHeadstartData() {
   executeYql(
     yqlQuery2,
     function(data) {
-      var amountFunded = data.query.results.div.p.content;
+      var amountFunded = $.trim(data.query.results.div.content);
       //alert("Amount funded: " + amountFunded);
       setHeadstartAmountFunded(amountFunded);
     });
