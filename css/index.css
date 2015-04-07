@@ -126,12 +126,16 @@ section {
   padding-top: 1px;  /* hack?? */
 }
 
+.donate a {
+  color: #3f7f25;
+}
+
 .donate-explanation {
   margin-bottom: 20px;
 }
 
 .subsection-title {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -214,9 +218,12 @@ section {
 .button {
   background-image: url(../images/button.svg);
   background-size: 100% 100%;
-  padding: 8px 15px;
+  padding: 2px 8px;
   color: white;
   min-width: 120px;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 .button:hover {
@@ -235,7 +242,7 @@ input[type=submit].button {
 .section-separator {
   width: 18px;
   display: block;
-  margin: auto;
+  margin: 40px auto 0px auto;
 }
 
 .join {
@@ -257,11 +264,6 @@ input[type=submit].button {
 
 .join form .last-name {
   padding-right: 5px;
-}
-
-.join .button {
-  display: block;
-  margin: auto;
 }
 
 input[type="text"]:focus,
