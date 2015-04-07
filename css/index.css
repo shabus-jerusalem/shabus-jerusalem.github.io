@@ -126,6 +126,10 @@ section {
   padding-top: 1px;  /* hack?? */
 }
 
+.donate a {
+  color: #3f7f25;
+}
+
 .donate-explanation {
   margin-bottom: 20px;
 }
