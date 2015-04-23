@@ -130,6 +130,10 @@ section {
   color: #3f7f25;
 }
 
+.donate a.button {
+  color: white;
+}
+
 .donate-explanation {
   margin-bottom: 20px;
 }
