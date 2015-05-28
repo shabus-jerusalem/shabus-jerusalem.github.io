@@ -85,18 +85,9 @@ section {
 	font-size: 28px;
 }
 
-.donate-link {
+.join-link {
   margin-top: 20px;
 	font-size: 24px;
-}
-
-.donate-link a {
-  color: black;
-}
-
-.donate-icon {
-  width: 124px;
-  height: 124px;
 }
 
 .video {
