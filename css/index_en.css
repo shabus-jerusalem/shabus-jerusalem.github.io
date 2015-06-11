@@ -83,17 +83,9 @@ section {
 	font-size: 28px;
 }
 
-.donate-link {
+.join-link {
   margin-top: 20px;
 	font-size: 24px;
-}
-
-.donate-link a {
-  color: black;
-}
-
-.donate-icon {
-  width: 124px;
 }
 
 .video {
@@ -136,7 +128,7 @@ section {
 }
 
 .subsection-title {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -219,9 +211,12 @@ section {
 .button {
   background-image: url(../images/button.svg);
   background-size: 100% 100%;
-  padding: 8px 15px;
+  padding: 2px 8px;
   color: white;
   min-width: 120px;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 .button:hover {
@@ -262,11 +257,6 @@ input[type=submit].button {
 
 .join form .last-name {
   padding-left: 5px;
-}
-
-.join .button {
-  display: block;
-  margin: auto;
 }
 
 input[type="text"]:focus,
