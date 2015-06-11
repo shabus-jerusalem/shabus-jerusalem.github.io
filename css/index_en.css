@@ -123,6 +123,14 @@ section {
   padding-top: 1px;  /* hack?? */
 }
 
+.donate a {
+  color: #3f7f25;
+}
+
+.donate a.button {
+  color: white;
+}
+
 .donate-explanation {
   margin-bottom: 20px;
 }
@@ -232,7 +240,7 @@ input[type=submit].button {
 .section-separator {
   width: 18px;
   display: block;
-  margin: auto;
+  margin: 40px auto 0px auto;
 }
 
 .join {
