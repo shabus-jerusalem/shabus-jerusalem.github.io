@@ -313,6 +313,10 @@ input[type="email"]:focus {
   margin-bottom: 30px;
 }
 
+.about a {
+  color: #3f7f25;
+}
+
 .map h1 {
   text-align: right;
   margin-bottom: 15px;
