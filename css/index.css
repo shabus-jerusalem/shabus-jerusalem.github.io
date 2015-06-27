@@ -59,6 +59,17 @@ section {
 .language-bar {
   margin-left: 80px;
   text-align: left;
+  direction: ltr;
+}
+
+.language-bar a {
+  color: #474747;
+  font-size: 16px;
+}
+
+.language-bar a:hover {
+  text-decoration: none;
+  color: #808080;
 }
 
 .language-link {

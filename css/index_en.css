@@ -59,6 +59,16 @@ section {
   text-align: left;
 }
 
+.language-bar a {
+  color: #474747;
+  font-size: 16px;
+}
+
+.language-bar a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+
 .language-link {
   height: 36px;
   width: 39px;
@@ -251,12 +261,17 @@ input[type=submit].button {
 	text-align: center;
 }
 
-.join form .first-name {
+/*.join form .first-name {*/
   padding-right: 5px;
 }
 
 .join form .last-name {
   padding-left: 5px;
+}
+
+.join .button {
+  display: block;
+  margin: auto;
 }
 
 input[type="text"]:focus,
