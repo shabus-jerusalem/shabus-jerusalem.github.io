@@ -171,6 +171,9 @@ section {
   color: #3f7f25;
 }
 
+.map a.button {
+  color: white;
+}
 
 .progress-bar-container {
   margin: 10px 0;
