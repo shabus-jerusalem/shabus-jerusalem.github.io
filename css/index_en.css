@@ -179,6 +179,10 @@ section {
   color: #3f7f25;
 }
 
+.map a.button {
+  color: white;
+}
+
 
 .progress-bar-container {
   margin: 10px 0;
@@ -319,6 +323,19 @@ input[type="email"]:focus {
 
 .map-embed-container {
   margin-top: 20px;
+}
+
+.map {
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.realtime h1 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.realtime {
+  margin-bottom: 15px;
 }
 
 .footer {
