@@ -234,6 +234,16 @@ section {
   margin: auto;
   text-align: center;
 }
+.subscription {
+  background-image: url(../images/button.svg);
+  background-size: 100% 130%;
+  padding: 2px 8px;
+  color: white;
+  min-width: 100px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
 .button:hover {
   text-decoration: underline;
