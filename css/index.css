@@ -240,10 +240,10 @@ section {
 }
 .subscription {
   background-image: url(../images/button.svg);
-  background-size: 100% 130%;
+  background-size: 100% 135%;
   padding: 2px 8px;
   color: white;
-  min-width: 150px;
+  min-width: 120px;
   display: block;
   margin: auto;
   text-align: center;
