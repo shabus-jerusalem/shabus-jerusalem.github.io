@@ -243,7 +243,9 @@ section {
   display: block;
   margin: auto;
   text-align: center;
-}
+  margin-top: 100px;
+  margin-bottom: 100px;
+  }
 
 .button:hover {
   text-decoration: underline;
