@@ -109,6 +109,15 @@ section {
 	margin-top: 20px;
 }
 
+.rough-map {
+	margin-top: 20px;
+}
+
+.rough-map-image {
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
 .explanation {
   background-color: #b3dd00;
   padding-top: 40px;
@@ -238,6 +247,7 @@ section {
   margin: auto;
   text-align: center;
 }
+
 .subscription {
   background-image: url(../images/button.svg);
   background-size: 100% 135%;
