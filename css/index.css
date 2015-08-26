@@ -135,6 +135,20 @@ section {
   text-decoration: underline;
 }
 
+.news {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 1px;  /* hack?? */
+}
+
+.news a {
+  color: #3f7f25;
+}
+
+.news a.button {
+  color: white;
+}
+
 .donate {
   text-align: center;
   margin-top: 40px;
