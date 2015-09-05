@@ -378,6 +378,14 @@ input[type="email"]:focus {
   margin-bottom: 15px;
 }
 
+.realtime a {
+  color: #3f7f25;
+}
+
+.realtime a.button {
+  color: white;
+}
+
 .footer {
   text-align: left;
   direction: ltr;
