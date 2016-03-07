@@ -1,4 +1,4 @@
-var headstartProjectId = "13733";
+var headstartProjectId = "17956";
 var headstartEmbedUrl = "http://www.headstart.co.il/embed.aspx?id=" + headstartProjectId;
 var headstartFullUrl = "http://www.headstart.co.il/project.aspx?id=" + headstartProjectId;
 var yqlUrl = "https://query.yahooapis.com/v1/public/yql"
