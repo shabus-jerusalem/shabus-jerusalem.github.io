@@ -52,6 +52,7 @@ section {
 
 .logo img {
   max-width: 300px;
+  max-height: 175px;
 }
 
 .language-bar {
