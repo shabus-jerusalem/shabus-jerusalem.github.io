@@ -369,7 +369,7 @@ input[type="email"]:focus {
   border-bottom: 1px solid #c1c1c1;
 }
 
-.realtime h1 {
+.realtime h3 {
   text-align: right;
   margin-bottom: 15px;
 }
