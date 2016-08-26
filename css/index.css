@@ -91,6 +91,12 @@ section {
   font-weight: normal;
 }
 
+.adopt_a_soldier img {
+    width: 100%;
+    height: auto;
+}
+
+
 .subtitle {
 	margin-top: 10px;
 	font-size: 28px;
