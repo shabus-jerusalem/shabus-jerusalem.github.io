@@ -489,3 +489,23 @@ small {
 img {
   max-width: 100%;
 }
+
+#quickintro img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 128px;
+    height: 128px;
+}
+
+.slide{
+    border-color: #003300;
+    border-style: solid;
+    border-radius: 10px;
+    min-height:340px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#quickintro .row{
+    margin-bottom: 50px;
+}
