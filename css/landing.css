@@ -1,0 +1,33 @@
+li{
+	margin-top:1em;
+}
+ol{
+	margin-bottom:3em;
+}
+
+body{
+	background-color:#008c98;
+	color:#ffffff;
+}
+
+section{
+	background: url("../images/cloud 1.png") no-repeat left top;
+	/*background-position: left top;*/
+}
+
+.button{
+	display: inline;
+	font-weight: bold;
+}
+
+
+.full{
+	width: 100%;
+}
+
+.logo{
+	width: 250px;
+	background: url("../images/cloud 2.png");
+	background-size:contain;
+	padding: 55px;
+}
