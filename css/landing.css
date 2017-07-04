@@ -11,7 +11,8 @@ body{
 }
 
 section{
-	background: url("../images/cloud 1.png") no-repeat left top;
+	background: url("../images/sun.png") no-repeat -50px -50px;
+	background-size:  150px 150px;
 	/*background-position: left top;*/
 }
 
