@@ -32,3 +32,9 @@ section{
 	background-size:contain;
 	padding: 55px;
 }
+
+li.city{
+	font-size: 150%;
+	color: #55ba48;
+	list-style-type: none;
+}
