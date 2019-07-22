@@ -221,7 +221,10 @@ section {
 }
 
 .map a.button {
+  background-image: none;
+  background-color: #3f7f25;
   color: white;
+  border-radius: 28px;
 }
 
 .progress-bar-container {
