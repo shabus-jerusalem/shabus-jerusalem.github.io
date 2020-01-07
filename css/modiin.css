@@ -7,8 +7,16 @@
     border-bottom-color: #233038;
 }
 
+.explanation a{
+    color: #ceddeb;
+}
+
 .button{
     background-image: none;
     background-color: #18568c;
     border-radius: 28px;
+}
+
+.slide{
+    border-color: #233038;
 }
