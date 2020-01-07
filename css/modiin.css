@@ -1,0 +1,14 @@
+.logo img{
+    margin-left: 20px;
+}
+
+.explanation, .header{
+    background-color: #3b9bd1;
+    border-bottom-color: #233038;
+}
+
+.button{
+    background-image: none;
+    background-color: #18568c;
+    border-radius: 28px;
+}
